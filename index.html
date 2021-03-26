@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>jQuery Exercise</title>
+</head>
+<style>
+    th,
+    td {
+        border: 1px solid black;
+
+    }
+</style>
+
+<body>
+    <div class="container mt-5">
+        <input type="checkbox" class="disable" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I accept</label>
+        <div class="mb-4">
+            <button type="button" class="btn btn-primary button" disabled>Submit</button>
+        </div>
+
+        <table>
+            <tr style="background-color: green;" class="change">
+                <th>Student</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Mark</td>
+                <td>1.2</td>
+            </tr>
+            <tr style="background-color: green;" class="change">
+                <td>James</td>
+                <td>2.2</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>1.6</td>
+            </tr>
+            <tr style="background-color: green;" class="change">
+                <td>John</td>
+                <td>2.0</td>
+            </tr>
+        </table>
+        <div class="mt-4">
+            <button type="button" class="btn btn-warning colorChange">Change Alternate Color</button>
+        </div>
+        <div class="mt-4">
+            <input type="text" maxlength="15" class="input">
+            <div class="mt-1">
+                <p><span id="span">15</span> Character(s) remaining.
+                </p>
+            </div>
+            <div class="mt-4">
+                <b><span id="reflect" style="color: blue;"></span></b>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button type="button" class="btn btn-primary add">Add</button>
+            <select id="selectorOption"></select>
+            <button type="button" class="btn btn-danger delete">Remove</button>
+        </div>
+        <div class="mt-4">
+            <button type="button" class="btn btn-success greet">Good Morning</button>
+        </div>
+        <div class="mt-4">
+            <p>Input Amount :<input type="text" id="int"></p>
+        </div>
+        <div class="mt-4 ">
+            <button type="button" class="btn btn-primary animate ">Animate</button>
+            <div class="mt-4">
+                <span style="border:red solid 1px" class="box-div">jQuery</span>
+            </div>
+        </div>
+        <div class="mt-4">
+            <span>
+                <button type="button" class="btn btn-warning up ">Up</button>
+                <button type="button" class="btn btn-warning down ">Down</button>
+            </span>
+        </div>
+        <div class="mt-4">
+            <span>
+                <button type="button" class="btn btn-warning left ">Left</button>
+                <button type="button" class="btn btn-warning right ">Right</button>
+                <div class="container box mt-4"
+                    style="background-color: aqua; height:100px;width:100px; margin-left:10px;position:relative; opacity: 0.5;">
+
+            </span>
+        </div>
+        <div class="mt-4">
+            <button class="btn btn-primary float-right back-to-top">back to top</button>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="style.js"></script>
+</body>
+
+</html>
